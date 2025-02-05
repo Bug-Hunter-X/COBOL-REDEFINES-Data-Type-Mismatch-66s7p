@@ -1,0 +1,3 @@
+# COBOL REDEFINES Data Type Mismatch
+
+This example demonstrates a potential issue when using the REDEFINES clause in COBOL without careful attention to data types.  The program attempts to perform arithmetic operations on a numeric field that has been previously updated with alphanumeric data using a redefinition. This can lead to runtime errors or unpredictable behavior.  The solution shows how to prevent this by ensuring type consistency or adding explicit data type checks.
